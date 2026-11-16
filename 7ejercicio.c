@@ -109,7 +109,7 @@ void mostrarProductos() {
     }
 
     printf("\n%-15s | %-10s | %-18s | %-10s\n", "Nombre", "Tiempo/U", "Recursos/U", "Demanda");
-    printf("-----------------------------------------------------------------\n");
+    printf("\n");
     for (int i = 0; i < cantidadProductos; i++) {
         printf("%-15s | %-10.2f | %-18.2f | %-10d\n",
                nombres[i], tiempos[i], recursosPorProd[i], demandas[i]);
