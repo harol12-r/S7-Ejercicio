@@ -21,7 +21,7 @@ int main() {
     int opcion;
 
     do {
-        printf("\n--- FABRICA DE COMPONENTES ELECTRONICOS ---\n");
+        printf("\n FABRICA DE COMPONENTES ELECTRONICOS \n");
         printf("1. Registrar producto\n");
         printf("2. Mostrar lista de productos\n");
         printf("3. Buscar y editar producto\n");
